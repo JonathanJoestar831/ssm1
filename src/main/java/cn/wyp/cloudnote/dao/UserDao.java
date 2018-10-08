@@ -4,6 +4,4 @@ import java.util.Map;
 
 public interface UserDao {
 	Map<String,Object> findUserById(String userId);
-	void work();
-	void remote();
 }
